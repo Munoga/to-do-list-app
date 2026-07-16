@@ -23,35 +23,12 @@
             id="input"
             placeholder="Enter to-do-activity"
           />
-          <button class="add">Add</button>
+          <button class="add" id="add">Add</button>
         </div>
+
         <div class="todo-lists">
-          <div class="to-do">
-            <input
-              type="checkbox"
-              class="checked"
-              id="checked"
-              placeholder="
-            "
-            />
-            <p class="activity">Walk the dog</p>
-            <button class="deleteBtn" id="deleteBtn">
-              <i class="fa-solid fa-trash"></i>
-            </button>
-          </div>
-          
-          <div class="to-do">
-            <input
-              type="checkbox"
-              class="checked"
-              id="checked"
-              placeholder="
-            "
-            />
-            <p class="activity">Walk the dog</p>
-            <button class="deleteBtn" id="deleteBtn">
-              <i class="fa-solid fa-trash"></i>
-            </button>
+           <div class="to-do" id="to-do-${index}">
+            <p class="activity" id="to-do">No Todos yet</p>
           </div>
         </div>
       </div>

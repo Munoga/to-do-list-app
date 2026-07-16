@@ -46,6 +46,12 @@ body{
     padding: 4px;
     background-color: #FFCC99;
     border-radius: 3px;
+    font-weight: 550;
+}
+.header-input > button.add:hover{
+    background-color: #003152;
+    color: #55b4f3;
+    cursor: pointer;
 }
 .todo-lists{
     display: flex;
@@ -60,4 +66,12 @@ body{
     align-items: center;
     background-color: #55b4f3;
     border-radius: 5px;
+}
+.to-do > button.deleteBtn:hover{
+    color: red;
+    cursor: pointer;
+}
+.done{
+    text-decoration: line-through;
+    color: #7d7e80;
 }
